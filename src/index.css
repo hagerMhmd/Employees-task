@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.MuiPopperUnstyled-root {
+  position: absolute !important;
+  z-index: 10;
+  top: 25px !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #e8e8e8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 57px;
+}
+
+fieldset {
+  border-radius: 57px !important;
+}
+
+.select label {
+  top: -8px !important;
+  font-size: 12px !important;
+
+}
+
+.date-picker input,
+::placeholder {
+  font-size: 12px !important;
+}
